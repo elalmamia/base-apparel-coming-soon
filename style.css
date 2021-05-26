@@ -25,7 +25,7 @@ body{
 }
 
 .logo img{
-    height: 20px;
+    height: 1.25rem;
 }
 .hero-desktop{
     display: none;
@@ -53,8 +53,8 @@ body{
 form{
     margin: auto;
     margin-top: 2rem;
-    height: 52.2px;
-    width: 310px;
+    height: 3.26rem;
+    width: 19.4rem;
     position: relative;
 }
 
@@ -64,7 +64,7 @@ form{
     font-size: 0.9rem;
     padding: 1em;
     background: transparent;
-    border-radius: 25px;
+    border-radius: 1.6rem;
     border: 1px solid hsl(0, 36%, 70%);
     
 }
@@ -84,14 +84,14 @@ form{
     background: hsl(0, 78%, 65%);
     color: white;
     font-weight: 700;
-    padding: 2px;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
+    padding: 0.2rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
     border-radius: 50%;
     position: absolute;
-    top: 13px;
-    right: 70px;
+    top: 0.8rem;
+    right: 4.4rem;
     visibility: hidden;
 
 }
@@ -110,13 +110,13 @@ form.error .error-icon{
 }
 .btn{
     
-    height: 46px;
+    height: 2.9rem;
     padding: 1em 1.9em;
     position: absolute; 
     top: 0;
     right: 0;
     border: none;
-    border-radius: 25px;
+    border-radius: 1.25rem;
     background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     box-shadow: 0px 16px 24px -2px hsla(0, 36%, 70%, 0.7)
 }
@@ -131,7 +131,7 @@ form.error .error-icon{
 
 .attribution{ 
     justify-self: center;
-    font-size: 11px; 
+    font-size: 0.7rem; 
     text-align: center; 
     margin-top: 3rem;
 }
@@ -194,13 +194,13 @@ form{
 }
 .error-icon{
     position: absolute;
-    top: 15px;
-    right: 100px;
+    top: 1rem;
+    right: 6rem;
     visibility: hidden;
 }
 .btn{
     
-    height: 52px;
+    height: 3.2rem;
     padding: 1rem 2.5rem;
 }
 .pic{
@@ -215,7 +215,7 @@ form{
 }
 .hero-desktop{
     display: block;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
