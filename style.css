@@ -20,11 +20,15 @@ body{
     color: hsl(0, 36%, 70%);
 }
 .logo{
-    justify-self: left;
-    margin: 2rem;
+    margin: auto;
+    padding: 2rem;
+    min-width: 23rem;
+   
 }
 
 .logo img{
+    display: block;
+    text-align: left;
     height: 1.25rem;
 }
 .hero-desktop{
